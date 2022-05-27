@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин Одежды</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-text">
+         <span>ФУТБОЛКИ С ПРИНТОМ</span><br>
+         <span class="price">499 <sup>руб.</sup></span><br>
+         <span class="low-price">ПОЧЕМУ ТАК ДЁШЕВО?</span><br>
+        </div>
+        <div class="header-images">
+           <div class="header-image">
+                <img src="images/sale.png" height="70" width="105" alt=""><br>
+                <span>Низкие цены</span>
+           </div>
+           <div class="header-image">
+                <img src="images/gruzovik.png"  height="90" width="98" alt=""><br>
+                <span>Доставки по всей России</span>
+           </div>
+           <div class="header-image">
+                <img src="images/hit.png"  height="80" width="80" alt=""><br>
+                <span>Только хиты</span>
+           </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-text">
+            <span class="futbolka-heading">ФУТБОЛКИ</span><br>
+            <span>100% Хлопок</span>
+        </div>
+        <div class="main-items">
+            <div class="main-item">
+                <img src="images/photo_1.png" height="300" alt=""><br>
+                <span>Футболка</span><br>
+                <span>499<sup>руб.</sup></span><br>
+                <button onclick='alert("Добавить в заказ?\n\"1 футболка\"")'>Добавить в корзину</button>
+            </div>
+            <div class="main-item">
+                <img src="images/photo.png" height="300" alt=""><br>
+                <span>Футболка</span><br>
+                <span>499<sup>руб.</sup></span><br>
+                <button onclick="prompt('Введите ваше имя')">Добавить в корзину</button> 
+            </div>
+        </div>
+            
+    </main>
+    <section class="more-items">
+
+    </section>
+<!-- розыгрыш -->
+    <section class="kupon">
+        <div class="kupon-text">
+            <span>
+                РОЗЫГРЫШ<br>
+                10000 <sup>руб.</sup>
+            </span><br>
+            <span class="accent">
+                Среди обладателей<br>
+                купонов
+            </span><br>
+            <span>Вечером 1 июня команда розыграет приз в прямом эфире!</span>
+
+        </div>
+        <div class="kupon-images">
+            <img src="images/money.jpg" width="200" height="200" alt="">
+        </div>
+    </section>
+    <!-- Форма заказа -->
+    <section class="order">
+        <h2>Ваш заказ</h2>
+        <div class="yellow">
+            <h3>Корзина пуста!</h3>
+
+        </div>
+        <div class="grey">В корзине пусто!</div>
+    </section>
+    <!-- Форма для заказа -->
+    <section class="order-form">
+        <form>
+            <h2>Оформление заказа</h2>
+            <label for="fname">Имя</label>
+            <input type="text" id="fname" name="fname" placeholder="Имя"><br>
+
+            <label for="lname">Фамилия</label>
+            <input type="text" id="lname" placeholder="Фамилия"><br>
+
+            <label for="email">Электронная почта</label>
+            <input type="email" id="email" placeholder="Ваш Email"><br>
+
+            <label for="phone">Телефонный номер</label>
+            <input type="phone" id="phone" placeholder="Ваш телефонный номер"><br>
+
+            <button>Перейти к оплате</button>
+
+        </form>
+    </section><br><br><br>
+    <img src="images/tp.png" alt="Тех.саппорты" class="helper" width="80px" onclick="print_contact()">
+        
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

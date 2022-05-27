@@ -1,0 +1,158 @@
+header {
+    background-color: yellow ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+body {
+    margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1px;
+}
+.price {
+    color: red;
+   font-size: 45px;
+}
+.price sup {
+    font-size: 18px ; 
+}
+.low-price {
+    background-color: red;
+    color: white;
+    background-size: 8px;
+}
+.header-images {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.header-image {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main-text {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+.futbolka-heading {
+    font-weight: bold;
+    font-size: 30px;
+   
+}
+.main-items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+    
+}
+.main-item {
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 1px 1px 10px 10px rgba(168, 161, 161, 0.363);
+    padding: 20px;
+}  
+.main-item button {
+    background-color: #dc143c;
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 15px;
+    font-size: 20px;
+}  
+.main-item button:hover {
+    background-color:rgb(167, 23, 52) ;
+    cursor: pointer;
+}
+.kupon {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.kupon-text {
+    font-size: 34px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: white;
+    
+}
+.kupon-images img {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.kupon-text .accent {
+    color: yellow;
+    text-transform: uppercase;
+
+}
+.order-form {
+    max-width: 460px;
+    margin: auto;
+}
+label {
+    display: block;
+}
+.order-form input {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(180, 180, 177, 0.377);
+    border: none;
+    box-shadow: 1px 1px 10px 10px rgba(134, 134, 134, 0.418);
+}
+::placeholder {
+    color: rgba(109, 102, 102, 0.596);
+}
+.order-form button {
+    display: block;
+    width: 100%;
+    padding: 10px 30px; 
+    background-color: lime;
+    box-shadow: 1px 1px 10px 10px rgba(134, 134, 134, 0.418);
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+} 
+.helper {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    transition: 0.2s ease-in-out;
+    
+}
+.order-form button:hover {
+    background-color: rgb(22, 109, 22);
+    cursor: pointer;
+}
+.yellow {
+    background-color: yellow;
+    padding: 8px;
+    margin: 10px 0px
+}
+.order {
+    margin-left: 40px;
+}
+.helper:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
